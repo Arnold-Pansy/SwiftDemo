@@ -1,0 +1,32 @@
+PODS:
+  - HandyJSON (5.0.2)
+  - IQKeyboardManagerSwift (6.5.11)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.7.5)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - HandyJSON
+  - IQKeyboardManagerSwift
+  - MBProgressHUD
+  - MJRefresh
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - HandyJSON
+    - IQKeyboardManagerSwift
+    - MBProgressHUD
+    - MJRefresh
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 54c2ceec2cd1389df219a157a8f928143837270e
+
+COCOAPODS: 1.11.3
