@@ -19,7 +19,34 @@
 		C1B5EA4629D383C500517B22 /* SwiftDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA4529D383C500517B22 /* SwiftDemoUITestsLaunchTests.swift */; };
 		C1B5EA5429D385D800517B22 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA5329D385D800517B22 /* UIColor+Extension.swift */; };
 		C1B5EA5929D3868A00517B22 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA5829D3868A00517B22 /* BaseTabBarController.swift */; };
-		C1B5EA5D29D387AD00517B22 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA5C29D387AD00517B22 /* Page.swift */; };
+		C1B5EA5D29D387AD00517B22 /* BaseThirdLibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA5C29D387AD00517B22 /* BaseThirdLibViewController.swift */; };
+		C1B5EA5F29D42CEE00517B22 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA5E29D42CEE00517B22 /* BaseViewController.swift */; };
+		C1B5EA6129D42D3100517B22 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA6029D42D3100517B22 /* BaseNavigationController.swift */; };
+		C1B5EA6329D42D7200517B22 /* Third_SnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA6229D42D7200517B22 /* Third_SnapKitViewController.swift */; };
+		C1B5EA6529D42DA500517B22 /* Thrid_AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA6429D42DA500517B22 /* Thrid_AlamofireViewController.swift */; };
+		C1B5EA6829D42E0A00517B22 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA6729D42E0A00517B22 /* URLRequest.swift */; };
+		C1B5EA6A29D42E8B00517B22 /* NetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA6929D42E8B00517B22 /* NetWorkTools.swift */; };
+		C1B5EA6C29D42ECC00517B22 /* Thrid_AlamofireImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA6B29D42ECC00517B22 /* Thrid_AlamofireImageViewController.swift */; };
+		C1B5EA7029D42F6100517B22 /* BaseOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA6F29D42F6100517B22 /* BaseOtherViewController.swift */; };
+		C1B5EA7229D42FAE00517B22 /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA7129D42FAE00517B22 /* NotificationCenterViewController.swift */; };
+		C1B5EA7429D42FE200517B22 /* BlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA7329D42FE200517B22 /* BlockViewController.swift */; };
+		C1B5EA7629D4300300517B22 /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA7529D4300300517B22 /* DelegateViewController.swift */; };
+		C1B5EA7829D4303F00517B22 /* PushGetKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA7729D4303F00517B22 /* PushGetKeyViewController.swift */; };
+		C1B5EA7A29D4305E00517B22 /* SingLetonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA7929D4305E00517B22 /* SingLetonViewController.swift */; };
+		C1B5EA7C29D4307800517B22 /* XH_Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA7B29D4307800517B22 /* XH_Singleton.swift */; };
+		C1B5EA7F29D430BD00517B22 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA7E29D430BD00517B22 /* Common.swift */; };
+		C1B5EA8429D4320F00517B22 /* UI_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA8329D4320F00517B22 /* UI_CollectionViewCell.swift */; };
+		C1B5EA8629D4324000517B22 /* UI_HeaderCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA8529D4324000517B22 /* UI_HeaderCollectionView.swift */; };
+		C1B5EA8829D4326000517B22 /* UI_FooterCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA8729D4326000517B22 /* UI_FooterCollectionView.swift */; };
+		C1B5EA8A29D4328600517B22 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA8929D4328600517B22 /* BaseUIViewController.swift */; };
+		C1B5EA8C29D4330400517B22 /* UI_LabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA8B29D4330400517B22 /* UI_LabelViewController.swift */; };
+		C1B5EA8E29D4331F00517B22 /* UI_ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA8D29D4331F00517B22 /* UI_ButtonViewController.swift */; };
+		C1B5EA9029D4335C00517B22 /* UI_ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA8F29D4335C00517B22 /* UI_ImageViewController.swift */; };
+		C1B5EA9229D4337300517B22 /* UI_TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA9129D4337300517B22 /* UI_TextFieldViewController.swift */; };
+		C1B5EA9429D4339800517B22 /* UI_CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA9329D4339800517B22 /* UI_CollectionViewController.swift */; };
+		C1B5EA9629D433DE00517B22 /* UI_AlertActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA9529D433DE00517B22 /* UI_AlertActionViewController.swift */; };
+		C1B5EA9829D4340000517B22 /* UI_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA9729D4340000517B22 /* UI_TableViewController.swift */; };
+		C1B5EA9A29D434A700517B22 /* XH_MBProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5EA9929D434A700517B22 /* XH_MBProgressHUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +84,34 @@
 		C1B5EA4529D383C500517B22 /* SwiftDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C1B5EA5329D385D800517B22 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		C1B5EA5829D3868A00517B22 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
-		C1B5EA5C29D387AD00517B22 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		C1B5EA5C29D387AD00517B22 /* BaseThirdLibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseThirdLibViewController.swift; sourceTree = "<group>"; };
+		C1B5EA5E29D42CEE00517B22 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C1B5EA6029D42D3100517B22 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		C1B5EA6229D42D7200517B22 /* Third_SnapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Third_SnapKitViewController.swift; sourceTree = "<group>"; };
+		C1B5EA6429D42DA500517B22 /* Thrid_AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thrid_AlamofireViewController.swift; sourceTree = "<group>"; };
+		C1B5EA6729D42E0A00517B22 /* URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+		C1B5EA6929D42E8B00517B22 /* NetWorkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkTools.swift; sourceTree = "<group>"; };
+		C1B5EA6B29D42ECC00517B22 /* Thrid_AlamofireImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thrid_AlamofireImageViewController.swift; sourceTree = "<group>"; };
+		C1B5EA6F29D42F6100517B22 /* BaseOtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseOtherViewController.swift; sourceTree = "<group>"; };
+		C1B5EA7129D42FAE00517B22 /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
+		C1B5EA7329D42FE200517B22 /* BlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockViewController.swift; sourceTree = "<group>"; };
+		C1B5EA7529D4300300517B22 /* DelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
+		C1B5EA7729D4303F00517B22 /* PushGetKeyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushGetKeyViewController.swift; sourceTree = "<group>"; };
+		C1B5EA7929D4305E00517B22 /* SingLetonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingLetonViewController.swift; sourceTree = "<group>"; };
+		C1B5EA7B29D4307800517B22 /* XH_Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XH_Singleton.swift; sourceTree = "<group>"; };
+		C1B5EA7E29D430BD00517B22 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		C1B5EA8329D4320F00517B22 /* UI_CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_CollectionViewCell.swift; sourceTree = "<group>"; };
+		C1B5EA8529D4324000517B22 /* UI_HeaderCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_HeaderCollectionView.swift; sourceTree = "<group>"; };
+		C1B5EA8729D4326000517B22 /* UI_FooterCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_FooterCollectionView.swift; sourceTree = "<group>"; };
+		C1B5EA8929D4328600517B22 /* BaseUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
+		C1B5EA8B29D4330400517B22 /* UI_LabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_LabelViewController.swift; sourceTree = "<group>"; };
+		C1B5EA8D29D4331F00517B22 /* UI_ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_ButtonViewController.swift; sourceTree = "<group>"; };
+		C1B5EA8F29D4335C00517B22 /* UI_ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_ImageViewController.swift; sourceTree = "<group>"; };
+		C1B5EA9129D4337300517B22 /* UI_TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_TextFieldViewController.swift; sourceTree = "<group>"; };
+		C1B5EA9329D4339800517B22 /* UI_CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_CollectionViewController.swift; sourceTree = "<group>"; };
+		C1B5EA9529D433DE00517B22 /* UI_AlertActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_AlertActionViewController.swift; sourceTree = "<group>"; };
+		C1B5EA9729D4340000517B22 /* UI_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_TableViewController.swift; sourceTree = "<group>"; };
+		C1B5EA9929D434A700517B22 /* XH_MBProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XH_MBProgressHUD.swift; sourceTree = "<group>"; };
 		E1045A2DC667FDFABD6FA303 /* Pods_SwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,7 +147,6 @@
 				284D022ED2AC3310D2576611 /* Pods-SwiftDemo.debug.xcconfig */,
 				9246B40BA45DB4BA97E21BA1 /* Pods-SwiftDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -122,6 +175,8 @@
 		C1B5EA2129D383C300517B22 /* SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C1B5EA7D29D4309E00517B22 /* Common */,
+				C1B5EA6629D42DCF00517B22 /* Network */,
 				C1B5EA5A29D386DB00517B22 /* Business */,
 				C1B5EA5529D3863100517B22 /* Base */,
 				C1B5EA5229D3858C00517B22 /* Extension */,
@@ -157,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				C1B5EA5329D385D800517B22 /* UIColor+Extension.swift */,
+				C1B5EA9929D434A700517B22 /* XH_MBProgressHUD.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -165,6 +221,8 @@
 			isa = PBXGroup;
 			children = (
 				C1B5EA5829D3868A00517B22 /* BaseTabBarController.swift */,
+				C1B5EA5E29D42CEE00517B22 /* BaseViewController.swift */,
+				C1B5EA6029D42D3100517B22 /* BaseNavigationController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -172,6 +230,8 @@
 		C1B5EA5A29D386DB00517B22 /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				C1B5EA8029D431D200517B22 /* Common UI */,
+				C1B5EA6E29D42F4D00517B22 /* Other */,
 				C1B5EA5B29D3874800517B22 /* Third */,
 			);
 			path = Business;
@@ -180,9 +240,77 @@
 		C1B5EA5B29D3874800517B22 /* Third */ = {
 			isa = PBXGroup;
 			children = (
-				C1B5EA5C29D387AD00517B22 /* Page.swift */,
+				C1B5EA5C29D387AD00517B22 /* BaseThirdLibViewController.swift */,
+				C1B5EA6229D42D7200517B22 /* Third_SnapKitViewController.swift */,
+				C1B5EA6429D42DA500517B22 /* Thrid_AlamofireViewController.swift */,
+				C1B5EA6B29D42ECC00517B22 /* Thrid_AlamofireImageViewController.swift */,
 			);
 			path = Third;
+			sourceTree = "<group>";
+		};
+		C1B5EA6629D42DCF00517B22 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C1B5EA6729D42E0A00517B22 /* URLRequest.swift */,
+				C1B5EA6929D42E8B00517B22 /* NetWorkTools.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C1B5EA6E29D42F4D00517B22 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C1B5EA6F29D42F6100517B22 /* BaseOtherViewController.swift */,
+				C1B5EA7129D42FAE00517B22 /* NotificationCenterViewController.swift */,
+				C1B5EA7329D42FE200517B22 /* BlockViewController.swift */,
+				C1B5EA7529D4300300517B22 /* DelegateViewController.swift */,
+				C1B5EA7729D4303F00517B22 /* PushGetKeyViewController.swift */,
+				C1B5EA7929D4305E00517B22 /* SingLetonViewController.swift */,
+				C1B5EA7B29D4307800517B22 /* XH_Singleton.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C1B5EA7D29D4309E00517B22 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C1B5EA7E29D430BD00517B22 /* Common.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C1B5EA8029D431D200517B22 /* Common UI */ = {
+			isa = PBXGroup;
+			children = (
+				C1B5EA8229D431F300517B22 /* View */,
+				C1B5EA8129D431ED00517B22 /* Controller */,
+			);
+			path = "Common UI";
+			sourceTree = "<group>";
+		};
+		C1B5EA8129D431ED00517B22 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C1B5EA8929D4328600517B22 /* BaseUIViewController.swift */,
+				C1B5EA8B29D4330400517B22 /* UI_LabelViewController.swift */,
+				C1B5EA8D29D4331F00517B22 /* UI_ButtonViewController.swift */,
+				C1B5EA8F29D4335C00517B22 /* UI_ImageViewController.swift */,
+				C1B5EA9129D4337300517B22 /* UI_TextFieldViewController.swift */,
+				C1B5EA9329D4339800517B22 /* UI_CollectionViewController.swift */,
+				C1B5EA9529D433DE00517B22 /* UI_AlertActionViewController.swift */,
+				C1B5EA9729D4340000517B22 /* UI_TableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C1B5EA8229D431F300517B22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1B5EA8329D4320F00517B22 /* UI_CollectionViewCell.swift */,
+				C1B5EA8529D4324000517B22 /* UI_HeaderCollectionView.swift */,
+				C1B5EA8729D4326000517B22 /* UI_FooterCollectionView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		EF0B9039A561C197E9CCD761 /* Frameworks */ = {
@@ -368,11 +496,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B5EA8A29D4328600517B22 /* BaseUIViewController.swift in Sources */,
+				C1B5EA8C29D4330400517B22 /* UI_LabelViewController.swift in Sources */,
+				C1B5EA9029D4335C00517B22 /* UI_ImageViewController.swift in Sources */,
+				C1B5EA6129D42D3100517B22 /* BaseNavigationController.swift in Sources */,
 				C1B5EA2729D383C300517B22 /* ViewController.swift in Sources */,
 				C1B5EA2329D383C300517B22 /* AppDelegate.swift in Sources */,
-				C1B5EA5D29D387AD00517B22 /* Page.swift in Sources */,
+				C1B5EA7229D42FAE00517B22 /* NotificationCenterViewController.swift in Sources */,
+				C1B5EA8429D4320F00517B22 /* UI_CollectionViewCell.swift in Sources */,
+				C1B5EA9629D433DE00517B22 /* UI_AlertActionViewController.swift in Sources */,
+				C1B5EA8629D4324000517B22 /* UI_HeaderCollectionView.swift in Sources */,
+				C1B5EA5D29D387AD00517B22 /* BaseThirdLibViewController.swift in Sources */,
 				C1B5EA5929D3868A00517B22 /* BaseTabBarController.swift in Sources */,
 				C1B5EA2529D383C300517B22 /* SceneDelegate.swift in Sources */,
+				C1B5EA8E29D4331F00517B22 /* UI_ButtonViewController.swift in Sources */,
+				C1B5EA7029D42F6100517B22 /* BaseOtherViewController.swift in Sources */,
+				C1B5EA9229D4337300517B22 /* UI_TextFieldViewController.swift in Sources */,
+				C1B5EA6329D42D7200517B22 /* Third_SnapKitViewController.swift in Sources */,
+				C1B5EA8829D4326000517B22 /* UI_FooterCollectionView.swift in Sources */,
+				C1B5EA7A29D4305E00517B22 /* SingLetonViewController.swift in Sources */,
+				C1B5EA7629D4300300517B22 /* DelegateViewController.swift in Sources */,
+				C1B5EA9A29D434A700517B22 /* XH_MBProgressHUD.swift in Sources */,
+				C1B5EA6C29D42ECC00517B22 /* Thrid_AlamofireImageViewController.swift in Sources */,
+				C1B5EA7829D4303F00517B22 /* PushGetKeyViewController.swift in Sources */,
+				C1B5EA7F29D430BD00517B22 /* Common.swift in Sources */,
+				C1B5EA6829D42E0A00517B22 /* URLRequest.swift in Sources */,
+				C1B5EA6A29D42E8B00517B22 /* NetWorkTools.swift in Sources */,
+				C1B5EA7C29D4307800517B22 /* XH_Singleton.swift in Sources */,
+				C1B5EA6529D42DA500517B22 /* Thrid_AlamofireViewController.swift in Sources */,
+				C1B5EA9829D4340000517B22 /* UI_TableViewController.swift in Sources */,
+				C1B5EA5F29D42CEE00517B22 /* BaseViewController.swift in Sources */,
+				C1B5EA7429D42FE200517B22 /* BlockViewController.swift in Sources */,
+				C1B5EA9429D4339800517B22 /* UI_CollectionViewController.swift in Sources */,
 				C1B5EA5429D385D800517B22 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

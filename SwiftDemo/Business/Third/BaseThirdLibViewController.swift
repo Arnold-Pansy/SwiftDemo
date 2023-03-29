@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Page: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class BaseThirdLibViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var dataArray : NSMutableArray?
     var tableView : UITableView?
     
